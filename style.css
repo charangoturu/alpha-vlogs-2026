@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('neon-bg.jpg') no-repeat center center fixed;
+    background: url('bg1.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -82,4 +82,103 @@ body {
     margin-top: 35px;
     opacity: 0.8;
     font-size: 14px;
+}
+
+
+/* 2 */
+
+.content {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.intro {
+    font-size: 18px;
+    line-height: 1.7;
+    opacity: 0.95;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    color: #ffde6b;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.feature-list,
+.rewards-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.feature-list li,
+.rewards-list li {
+    margin-bottom: 10px;
+    padding-left: 18px;
+    position: relative;
+}
+
+.feature-list li::before,
+.rewards-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #0a84ff;
+}
+
+.steps-list {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.steps-list li {
+    margin-bottom: 10px;
+}
+
+.event-info {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+
+/* 3 */
+/* LOGO (for future use) */
+.logo {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 15px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.contact-section p {
+    margin: 8px 0;
+}
+
+.contact-section a {
+    color: #0a84ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
 }
