@@ -164,6 +164,7 @@ body {
 
     .glass-panel {
         width: 100%;
+        max-width: 480px;     /* ⭐ KEY FIX */
         margin: 20px auto;
         padding: 25px 20px;
         border-radius: 18px;
@@ -172,7 +173,6 @@ body {
     .title {
         font-size: 22px;
         line-height: 1.3;
-        white-space: normal;
         text-align: center;
     }
 
@@ -205,3 +205,4 @@ body {
         width: 180px;
     }
 }
+
