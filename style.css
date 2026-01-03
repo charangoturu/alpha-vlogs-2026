@@ -246,3 +246,24 @@ body {
         text-align: center;
         padding: 14px 0;
         font-size: 18p
+
+    /* ===== FINAL MOBILE ALIGNMENT FIX ===== */
+@media (max-width: 768px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .glass-panel {
+        max-width: 420px;     /* key fix */
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
